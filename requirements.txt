@@ -1,0 +1,39 @@
+# Core dependencies
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+
+# LLM and AI
+openai>=1.3.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+
+# Vector database and embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+numpy>=1.24.0
+
+# PDF processing
+pypdf>=3.17.0
+pdfplumber>=0.10.0
+pymupdf>=1.23.0
+
+# Text processing
+nltk>=3.8.1
+spacy>=3.7.0
+
+# Web interface
+streamlit>=1.28.0
+gradio>=4.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+click>=8.1.0
+rich>=13.7.0
+tqdm>=4.66.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0 
