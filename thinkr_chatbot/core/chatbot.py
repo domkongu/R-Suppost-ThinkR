@@ -29,7 +29,7 @@ class ThinkRChatbot:
                  max_tokens: int = 1000):
         
         # Initialize OpenAI
-        self.api_key = openai_api_key or os.getenv("OPENAI_API_KEY")
+        self.api_key = os.getenv("OPENAI_API_KEY")   #openai_api_key or 
         if not self.api_key:
             raise ValueError("OpenAI API key is required. Set OPENAI_API_KEY environment variable.")
         
