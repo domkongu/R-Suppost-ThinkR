@@ -14,9 +14,7 @@ from thinkr_chatbot.core.pdf_processor import PDFProcessor
 from thinkr_chatbot.core.prompt_manager import PromptManager
 
 
-class TestPromptManager:
-    """Test the prompt manager."""
-    
+class TestPromptManager:    
     def test_init(self):
         """Test prompt manager initialization."""
         pm = PromptManager()
